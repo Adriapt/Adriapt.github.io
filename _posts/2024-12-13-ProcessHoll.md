@@ -9,7 +9,7 @@ render_with_liquid: false
 ---
 # Process Injection: Process Hollowing
 
-In this post we are going to study another process injection sub-technique called Process Hollowing. If you have a clear understanding of the structure of a PE (Portable Executable) file, this will be easy to understand.  If not, I recommend reading [this](https://blog.adriapt.xyz/posts/PEfiles/) other post first.
+In this post we are going to study another process injection sub-technique called Process Hollowing. If you have a clear understanding of the structure of a PE (Portable Executable) file, this will be easy to understand.  If not, I recommend reading [this](https://blog.adriapt.com/posts/PEfiles/) other post first.
 
 ![d0d6c113-2235-432e-ab32-ea20d8968573.webp](/img/posts/ProcessHollowing/d0d6c113-2235-432e-ab32-ea20d8968573.webp)
 
