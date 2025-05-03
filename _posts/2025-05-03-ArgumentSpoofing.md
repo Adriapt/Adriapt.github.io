@@ -275,7 +275,7 @@ Anyway, in this section we will use x64dbg to analyze the process memory and do 
 1. We will first open x64dbg and attach it to the powershell process. 
 2. Now, we can use the `peb()` command to get the address of the PEB:
 
-![image.png](/img/posts/ArgSpoofingimage%202.png)
+![image.png](/img/posts/ArgSpoofing/image%202.png)
 
 1. If we referrer to the PEB structure, we can see that the Process Parameters is in the offset 0x20. so we could do peb() + 0x20. We can see in the memory content another memory address, that belongs to **RTL_USER_PROCESS_PARAMETERS structure, in this example the memory address is `0x000001C4E57A0000`**  .
     
